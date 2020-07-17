@@ -32,7 +32,7 @@ return requestPromise(apiOptions, function (err, res, body) {
             console.log(csv);
             const params = {        
                 Bucket: `virens3bucketforsampletest123`,        
-                Key: 'materials.csv',         
+                Key: 'materials1.csv',         
                 Body: csv  
             };
             s3.upload(params, function(s3Err) {
